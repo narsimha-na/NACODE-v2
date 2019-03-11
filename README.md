@@ -58,12 +58,12 @@ Note: It is still in Development stage so UI & UX may change during the course o
 
 This software uses the following open source packages:
 
-- [Android Studio](http://electron.atom.io/)
-- [CodeView](https://nodejs.org/)
-- [Icons](https://github.com/chjj/marked)
-- [Firebase-Backend](http://showdownjs.github.io/showdown/)
-- [Picasso](http://codemirror.net/)
-- [Ace Editor](https://highlightjs.org/)
+- [Android Studio](https://developer.android.com/studio)
+- [CodeView](https://github.com/kbiakov/CodeView-Android)
+- [Icons](https://icons8.com/)
+- [Firebase-Backend](http://firebase.google.com/)
+- [Picasso](https://github.com/square/picasso)
+- [Ace Editor](https://ace.c9.io/)
 
 
 ## Support
@@ -86,7 +86,7 @@ MIT
 
 ---
 
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+> [nacode.xyz](https://www.nacode.xyz) &nbsp;&middot;&nbsp;
+> GitHub [@narsimha-na](https://github.com/narsimha-na) &nbsp;&middot;&nbsp;
+> Twitter [@narsimha_na](https://twitter.com/)
 
