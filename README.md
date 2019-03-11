@@ -7,7 +7,9 @@
 </h1>
 
 <h4 align="center">“Talk is cheap. Show me the code.” </h4>
-
+This app is tailored to enhance your coding skills, via the use of code compilation and algorithm solving.
+Write, run, and share real code right from your mobile, without any additional installations and setups
+It contains a bunch of pre-listed programs, you can use them or edit them or suggest us the best logic. 
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -65,7 +67,7 @@ This software uses the following open source packages:
 
 ## Support
 
-<a href="buymeacoff.ee/6G8zKV5iO" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<a href="http://buymeacoff.ee/6G8zKV5iO" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 <p>Or</p> 
 
@@ -75,8 +77,7 @@ This software uses the following open source packages:
 
 ## You may also like...
 
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
+- [Firebase Projects](#)
 
 ## License
 
