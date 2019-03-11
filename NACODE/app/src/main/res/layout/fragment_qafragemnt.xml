@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QAFragemnt"
+    android:tag="qa">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ashLight">
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="21dp"
+            android:layout_marginEnd="22dp"
+            android:src="@drawable/edit_pencil"
+            android:id="@+id/qa_createQuestion"
+            app:backgroundTint="@color/darkGrey" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/appbar"
+                    android:orientation="horizontal"
+                    android:background="@color/darkGrey"
+                    android:paddingBottom="5dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="8dp"
+                        android:src="@drawable/chat"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Q &amp; A Form"
+                        android:textSize="18sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/whiteColor"
+                        />
+
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+                      <android.support.v7.widget.RecyclerView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_marginTop="5dp"
+                          android:id="@+id/qa_recyclerView"/>
+
+
+                  </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Share"
+        android:icon="@drawable/share_white"
+        android:id="@+id/fv_share"/>
+    <item
+        android:title="Like"
+        android:id="@+id/fv_like"
+        android:icon="@drawable/home_feed_unlike_white"
+        />
+    <item
+        android:icon="@drawable/home_bookmark_false_white"
+        android:id="@+id/fv_bookmark"
+        android:title="Bookmark"
+        />
+
+
+</menu>

@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Structures</title>
+</head>
+<style type="text/css">
+  .card{
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  }pre{
+       background-color: #f1f1f1;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    margin:8px;
+    margin-right: 15px;
+    height: auto;
+    font-size: 12px;
+  }
+  #editor{
+
+    height: 250px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 10px;
+  }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+  <div class="card">
+    <div class="container">
+    	<h3 style="color: #6460FF">Structure</h3>
+    	<p>Structure is a user-defined datatype in C language which allows us to combine data of different types together. Structure helps to construct a complex data type which is more meaningful.Structure in c is a user-defined data type that enables us to store the collection of different data types. Each element of a structure is called a member. </p>
+    	<p style="color:#6460FF">Declaration :</p>
+    	<p>To define a structure, you must use the <b style="color: #6460FF">struct</b> statement. The struct statement defines a new data type, with more than one member.For example, an entity Student may have its name (string), roll number (int), marks (float). To store such type of information regarding an entity student. The format of the struct statement is as follows −</p>
+    	<pre>
+
+struct structure_name   
+{  
+    data_type member1;  
+    data_type member2;  
+    .  
+    .  
+    data_type memeberN;  
+};  
+
+A structure data type called student can hold all this information:
+<code style="color: #6460FF">
+struct student {
+int roll_no
+char class
+char name[25];
+int age;
+char address[50];
+};
+</code>
+
+    	</pre>
+    	<p style="color: #6460FF">Example :</p>
+    	<div id="editor">
+#include<stdio.h>  
+#include <string.h>    
+struct student     
+{   int id;      
+    char name[50],dept[50];      
+}na;  //declaring 'na' variable for structure    
+int main( )    
+{    
+   //store first Student information    
+   na.id=101;    
+   strcpy(na.name, "narsimha reddy");//copying string into char array    
+   strcpy(na.dept, "computer science");
+   //printing first student information    
+   printf( "Student Id : %d\n", na.id);    
+   printf( "Student Name : %s\n", na.name);
+   printf( "Student Dept : %s\n", na.dept);        
+return 0;  
+}     
+    	</div><br>
+    	<p style="color: #6460FF">Output :</p>
+    	<pre>
+Student Id :16951A0595
+Student Name : narsimha reddy
+Student Dept : computer science   		
+    	</pre>
+      
+    </div>
+  </div>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scope</title>
+</head>
+<style type="text/css">
+  .card{
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  }pre{
+       background-color: #f1f1f1;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    margin:8px;
+    margin-right: 15px;
+    height: auto;
+    font-size: 12px;
+  }
+  #editor{
+
+    height: 150px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 10px;
+  }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+  <div class="card">
+    <div class="container" >
+      <h3 style="color: #6460FF">Scope in C programming Langauge</h3>
+      <p>Scope in programming language is the region in which program where the varible can be declared and beyond that it cannot be accessed.Their are two types variables , they are :</p>
+      <ul>
+        <li>
+          <p><b style="color: #6460FF">Gloabal Variable</b></p>
+          <p> Global variable are declared outside any functions, usually at top of program.they can be used by later blocks of code those variables are known as Global variables .</p>
+        </li>
+        <li>
+          <p><b style="color: #6460FF">Local Variable</b></p>
+          <p>Variables that are declared inside a function or block are local variables.The scope of local variables will be within the function only.These variables are declared within the function and can't be accessed outside the function.</p>
+        </li>
+      </ul>
+      <h4 style="color: #6460FF"> Example :</h4>
+      <div id="editor">
+#include&lt;stdio.h&gt;
+
+//Gloabal varible is declared
+int g;
+void main()
+{
+  //Local varible is declared
+  int a;
+  g=0;
+}            
+    </div><br><br>
+    </div>
+  </div>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>
+

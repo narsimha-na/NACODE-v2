@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Functions</title>
+</head>
+<style type="text/css">
+	.card{
+		box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+	}pre{
+       background-color: #f1f1f1;
+		border: 1px solid #d6d6d6;
+		padding: 5px;
+		margin:8px;
+		margin-right: 15px;
+		height: auto;
+		font-size: 12px;
+	}
+	#editor{
+
+		height: 350px;
+		border-radius: 10px;
+	}
+
+	code{
+		color: #6460FF;
+	}
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+	<div class="card">
+		<div class="container" style="margin: 10px;">
+			<h3 style="color: #6460FF"> Functions</h3>
+			<p>The program is divided in parts by dividing it into parts , these parts can used agian which inturn reducecs lines of code. </p>
+			<p>The functions  are classified into two types , they are :</p>
+			<ol>
+				<li>
+					<p><b style="color: #6460FF;">Pre Defind Functions</b> : These are the functions which are already declared in C Library. </p> 
+					<p> Eg : <code> scanf() , printf() </code> etc</p>
+				</li>
+				<li>
+					<p><b style="color: #6460FF;">User Defind Functions</b> : These are the functions which are defind by the user at the time of writing programming  </p>
+				</li>
+			</ol>
+			<h4 style="color: #6460FF">Function Synatx</h4>
+			<pre>
+returnType functionName(type1 parameter1,type2 parameter2,...) {
+	
+	// Body of Function
+}
+			</pre>
+			<p>Function declaration in C programming consists of 4 parts ,They are :</p>
+			<ul>
+				<li> 
+					<p><b>Return Type  </b> : When a function performs a set of  lines of code , it is said to return some type of the result , that is known as Return Type. It may be of value : <code> int , float , char , double</code> . If it doesn't return then we have to mention it has void.</p>
+				</li>
+				<li>
+					<p><b>Function Name </b> : The function name specifies the name of function  and for naming of the function name same rules like other varibles in C langauge .</p>
+				</li>
+				<li><p><b>Parameter List </b> : Paramerter List : These are the parameters that are declared in a function and it excepts those parameters when it is called.</p></li>
+				<li><b>Function Body</b></li>
+			</ul>
+			<p><b style="color: #6460FF">Function Calling :</b> Function name is used to call the function and when the function is called control of program is transferred to it.</p>
+			<pre>
+functionName(arugment1,arugment2...);
+			</pre><br>
+			<p><b style="color: #6460FF">Syntax :</b></p>
+			<div id="editor">
+#include &lt;stdio.h&gt;
+void main()
+{
+	int a,b,c;
+	printf("Enter the two numbers for addtion");
+	scanf("%d%d",&a,&b);
+	c=add(a,b);
+	printf("Additon of two numbers is :%d",c);
+
+}
+
+int add(int a,int b){
+	
+	int d;
+	d=a+b;
+
+	return d;
+}
+			</div><br>
+			<pre>
+Enter the two numbers for addtion
+4 5
+Addtion of two numbers is : 9
+			</pre><br>
+			<p><b style="color: #6460FF"> Passing Arugments to a function </b></p>
+			<p>Arugments are passed during the function call , these varibles are called  Foraml parameters . Passing of arguments to function are of two types ,they are : </p>
+			<ul>
+				<li>
+					<p><b>Call by Value </b> :  method of passing arguments to a function copies the actual value of an argument into the formal parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.</p>
+				</li>
+				<li>
+					<p><b>Call by Reference </b> :  method of passing arguments to a function copies the actual value of an argument into the formal parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.</p><br><br>
+				</li>
+			</ul>
+		</div>
+	</div><br>
+	<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>

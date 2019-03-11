@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arrays</title>
+</head>
+<style type="text/css">
+  .card{
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  }pre{
+       background-color: #f1f1f1;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    margin:8px;
+    margin-right: 15px;
+    height: auto;
+    font-size: 12px;
+  }
+  #editor{
+
+    height: 240px;
+    border-radius: 10px;
+  }
+  #editor1{
+
+    height: 180px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 10px;
+  }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+  <div class="card">
+    <div class="container">
+      <h3 style="color: #6460FF"> Arrays </h3>
+      <p>Arrays are special variables which can hold more than one value under the same variable name, organised with an index.An array is defined as finite ordered collection of homogenous data, stored in contiguous memory locations.</p>
+      <h5 style="color: #6460FF">Declaring Array </h5>
+      <p>Like any other variable, arrays must be declared before they are used. General form of array declaration is,</p>
+      <pre>
+dataType variableName[size]; 
+
+//Example
+int na[30];
+
+      </pre><br>
+      <p><b style="color: #6460FF">Initializing Arrays</b></p>
+      <p>Array can initialized in two ways at runtime or compile time and arrays can be of differnt types , they are :</p>
+      <ul>
+        <li>
+          <p><b style="color: #6460FF">One Dimensional Array</b></p>
+          <p>It is the basic of the array , in which we have only one index for the array.</p>
+          <p style="color:#6460FF">Initializing a Arrya :</p>
+          <pre>
+nacode[0]=1;
+nacode[1]=2;
+nacode[2]=3;
+nacode[3]=4;
+          </pre><br>
+          <p style="color: #6460FF"> Example :</p>
+          <div id="editor">
+#include&lt;stdio.h&gt;
+void main(){
+  
+  int i=0;
+
+  // Declaring of the array
+  int na[3];
+
+  //Initializing of the array 
+  na[0]=1;
+  na[1]=2;
+  na[2]=3;
+
+  for(i=0;i<=3;i++){
+
+  //Accessing of array
+  printf("%d \t",na[i]);
+
+}
+
+}
+          </div>
+          <p style="color: #6460FF"> Output :</p>
+          <pre>
+1 2 3
+          </pre><br>
+        </li>
+
+        <li>
+          <p><b style="color: #6460FF">Two Dimensional Array</b></p>
+          <p>Two Dimensional Array is a  of a list of one dimensional arrays, it is the simplest form of the multidimensional array.It should have to two indeed value .</p>
+          <p style="color: #6460FF">Initializing :</p>
+          <pre>
+int arr[4][3]={{1,2,3},{2,3,4},{3,4,5},{4,5,6}};  
+          </pre>
+          <p style="color:#6460FF"> Example :</p>
+          <div id="editor1">
+#include<stdio.h>  
+int main(){      
+int i=0,j=0;    
+int na[2][2]={{1,2},{2,3}};     
+//traversing 2D array    
+for(i=0;i<=2;i++){    
+ for(j=0;j<=2;j++){    
+   printf("na[%d] [%d] = %d \n",i,j,na[i][j]);    
+ }   
+}   
+return 0;  
+}    
+          </div>
+          <p style="color: #6460FF"> Output : </p>
+          <pre>
+na[0][0] = 1 
+na[0][1] = 2
+na[1][0] = 2 
+na[1][1] = 3
+          </pre>
+        </li>
+        <p></p>
+      </ul>
+    </div>
+  </div>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+    var editor1 = ace.edit("editor1");
+    editor1.setTheme("ace/theme/monokai");
+    editor1.setReadOnly(true);
+    editor1.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor1').style.fontSize='10px';
+</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Union</title>
+</head>
+<style type="text/css">
+  .card{
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  }pre{
+    background-color: #f1f1f1;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    margin:8px;
+    margin-right: 15px;
+    height: auto;
+    font-size: 12px;
+  }
+  #editor{
+
+    height: 200px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 10px;
+  }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+  <div class="card">
+    <div class="container">
+    	<h3 style="color: #6460FF">Unions</h3>
+    	<p> C Union is also like structure, i.e. collection of different data types which are grouped together.he syntax to declare/define a union is also similar to that of a structure. The only differences is in terms of storage. In structure each member has its own storage location, whereas all members of union uses a single shared memory location which is equal to the size of its largest data member.</p>
+    	<p style="color: #6460FF">Syntax :</p>
+    	<pre>
+union tag_name
+{
+data type var_name1;
+data type var_name2;
+data type var_name3;
+};
+ 
+    	</pre>
+    	<p style="color: #6460FF">Accessing a Union Member</p>
+    	<pre>
+    		<code>
+union test
+{
+    int a;
+    float b;
+    char c;
+}t;
+
+t.a;    //to access members of union t
+t.b;     
+t.c;
+    		</code>
+    	</pre><br>
+    	<p style="color: #6460FF"> Example :</p>
+    	<div id="editor">
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt; 
+union employee    
+{   int id;    
+    char name[50];    
+}na;  //declaring na variable for union  
+void  main( )  
+{  
+   
+   na.id=16951A0564;  
+   strcpy(na.name, "Kartik Joshi");
+   //printing first employee information  
+   printf( "  id : %d\n", na.id);  
+   printf( " name : %s\n", na.name);  
+
+}  	
+    	</div><br>
+    	<p style="color: #6460FF">Output</p>
+    	<pre>
+ id : 16951A0564
+ name : Kartik Joshi
+    	</pre>
+
+      
+    </div>
+  </div>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>

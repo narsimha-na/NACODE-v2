@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Variables </title>
+</head>
+<style type="text/css">
+	.card{
+		width: auto;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+	#editor{
+		height: 190px;
+		border-radius: 10px;
+		
+	}
+	.sub-card{
+		box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+	}
+
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+	<div class="card">
+		<div class="container" style="margin:8px;">
+			<h3 style="color: #6460FF; font-size: large;" > Variables </h3>
+			<p>A <b>Variable</b> in simple terms is a storage place which has some memory allocated to it,variable used to store some form of data. Different types of variables require different amounts of memory.</p>
+			<p style="color: #6460ff"><b>Variable Types</b></p>
+			<ul>
+				<li><b>char :</b> A character constant is created by enclosing a single character inside single quotation marks.  </li><br>
+				<li><b>int :</b>An integer is a numeric constant (associated with number) without any fractional or exponential part.  </li><br>
+				<li><b>float :</b> A floating point constant is a numeric constant that has either a fractional form or an exponent form.</li><br>
+				<li><b>double :</b> It is the double of the floating value.</li><br>
+
+			</ul>
+			<div class="sub-card">
+				<div id="editor"> #include &lt;stdio.h&gt;
+int main() 
+{ 
+    // declaration and definition of variable 'a1' for characters 
+    char a1 = 'a';  
+     
+    // memory is allocated on name  of'b'  and assigned some garbage value .   
+    int b;   
+  
+    // multiple declarations and definitions 
+    double a,b,c;  
+
+    float d = 3.5;  
+  
+    return 0; 
+}
+
+            </div>
+			</div>
+            <ul style="padding: 8px;">
+            	<p><b>Rules on writing the varible names</b></p>
+            	<li>A variable name can consist of Capital letters A-Z, lowercase letters a-z, digits 0-9, and the underscore character.</li>
+            	<li>The first character must be a letter or underscore.</li>
+            	<li>C keywords cannot be used as variable names.</li>
+            	<li>Special characters like #, $ are not allowed.</li>
+            </ul>
+		</div>
+	</div>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>

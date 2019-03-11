@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lopping</title>
+</head>
+<style type="text/css">
+	.card{
+
+		box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+	}
+	pre{
+       background-color: #f1f1f1;
+		border: 1px solid #d6d6d6;
+		padding: 5px;
+		margin:8px;
+		margin-right: 15px;
+		height: auto;
+		font-size: 12px;
+	}
+	#editor{
+
+		height: 350px;
+		border-radius: 10px;
+	}
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+	<div class="card">
+		<div class="container" style="margin: 10px;">
+			<h3 style=" color: #6460FF"> Looping </h3>
+			<p>In the world of programming  code efficiency is very important, some times we repeat the same piece of code again and agian , due to which execution becomes slow.So by these loop statements we can repeat the same code again and again without writing it agian. </p>
+			<p>Their are different types of loops , they are :</p>
+			<ul>
+				<li>
+					<p><b>while loop</b></p>
+				</li>
+				<li>
+					<p><b>for loop</b></p>
+				</li>
+				<li>
+					<p><b>nested loop</b></p>
+				</li>
+				<li>
+					<p><b>do while loop</b></p>
+				</li>
+			</ul>
+			<h4 style="color: #6460FF"> for loop</h4>
+			<p>This is a type of for loop in which ,we have to specify the number of times the loop as to be executed then it will executed that number number of times.</p>
+			<p><b style="color: #6460FF">Syntax :</b></p>
+			<pre>
+for(initialization;condition;increment/decrement){
+	
+	statement;
+}
+			</pre>
+			<br>
+			<h4 style="color: #6460FF"> while loop</h4>
+			<p>This is a type of loop in which , we have to repeat the given statement until the given condition is true.it first test the condition before executing loop. </p>
+			<p><b style="color: #6460FF"> Syntax :</b></p>
+			<pre>
+while(condition){
+	
+	statement;
+	increment/decrement;
+}
+			</pre><br>
+			<h4 style="color: #6460FF">do while loop</h4>
+			<p>This is the type of the loop in which the loop is executed  first and then the condition is executed. <b>do</b>  statements checks into that loop is executed and whereas <b>while </b> statement checks into that the given condition is true</p>
+			<pre>
+do{
+	......
+	statements;
+	......
+}
+while(condition)
+
+			</pre><br>
+
+			<p><b style="color: #6460FF"> Example :</b></p>
+			<div id="editor">
+#include &lt;stdio.h&gt;
+void main()
+{
+	int a;
+
+	// FOR Loop
+	for(a=1 ; a<=3 ; a++)
+	{
+		// it prints three times
+		printf("%d \t",a);
+	}
+
+	// While Loop
+
+	a=1;
+	while(x<=3)
+	{
+		printf("%d \t",a);
+		a++;
+    }
+
+    // Do While Loop
+    do
+    {
+    	printf("%d\t", a);
+    } 
+    while(a <= 3);
+
+	
+}				
+			</div>
+
+		</div>
+	</div>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>

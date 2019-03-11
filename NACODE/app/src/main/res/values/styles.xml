@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--Floating label text style-->
+    <style name="MyHintText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/mainDarkGrey</item>
+        <item name="android:textColorHint">@color/mainDarkGrey</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/orange</item>
+        <item name="colorControlActivated">@color/mainOrange</item>
+        <item name="editTextColor">@color/darkGrey</item>
+        <item name="android:textColor">@color/mainDarkGrey</item>
+        <item name="android:textColorHint">@color/mainDarkGrey</item>
+    </style>
+
+
+    <!--Floating label text style Login for Create Post and Question-->
+    <style name="MyHintTextC" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/lightGrey</item>
+        <item name="android:textColorHint">@color/lightGrey</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="MyEditTextC" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/lightGrey</item>
+        <item name="android:textColorHighlight">@color/yellowColor</item>
+        <item name="colorControlActivated">@color/yellowColor</item>
+        <item name="android:colorControlHighlight" tools:targetApi="lollipop">@color/redPink</item>
+        <item name="editTextColor">@color/darkGrey</item>
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:textColorHint">@color/lightGrey</item>
+    </style>
+
+    <style name="HeaderBar">
+        <item name="android:background">#303F9F</item>
+    </style>
+
+    <style name="Heading" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/teal</item>
+        <item name="android:textSize">@dimen/heading</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="collapsingToolbar">
+        <item name="android:textColor">@color/transparentColor</item>
+        <item name="android:textSize">0sp</item>
+    </style>
+
+    <!-- C Notes -->
+    <style name="listCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="cardCornerRadius">3dp</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+
+
+    <style name="textView1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mainPurple</item>
+
+    </style>
+
+</resources>

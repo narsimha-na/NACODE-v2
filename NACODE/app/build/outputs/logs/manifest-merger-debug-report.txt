@@ -1,0 +1,757 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [com.android.support:multidex:1.0.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/2edfa88e4fc97727042fbe75197b3ebc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:2:1-93:12
+MERGED from [com.android.support:design:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/09d578142ac666d69ad0d484c8466193/AndroidManifest.xml:17:1-24:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/fa19b4c3d565c7fd71e6037ad34588f8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.chootdev:timezago:1.1.8] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/timezago-1.1.8.aar/f800e108dad43c60fa799eb8a55e8378/AndroidManifest.xml:2:1-17:12
+MERGED from [thereisnospon.codeview:codeview:0.3.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/codeview-0.3.1.aar/bdf55062caf114a35d438a64435c4df3/AndroidManifest.xml:2:1-17:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/ee80a2394792a1e585b7b6ae47050f96/AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2b50d5d49780d1ddb2fbcb407ddb86d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-database:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.2.0.aar/caca1ae37ee820d37826a659579dc916/AndroidManifest.xml:2:1-13:12
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/67a8c4169c6479ac5ecf8bd5cea0a63b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e20bd8ba298a10c19a26d35dfb535943/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/cad78064e3f14730d6614103225c29d7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.firebaseui:firebase-ui-storage:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-4.2.0.aar/77056d3512d7f9bc02418ea168738032/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/9464d832d86a1f3610e01c0fbb2700e2/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/1cf81fbee0db99be369ca63c1838c2dc/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/09a0389538f7146fab8c25df2386cccc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/e6e6148d7d6908cba0af1bb11413b813/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/ceede2141b81fe8c40ce8244aedc7898/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/36f45a6b82b32e22219de902b2e5236a/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e3287932958569f6e668f6424f084377/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/e6d4c72a1f09d7e281a8eb7392b9d42c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/69114c28887373cb2f63788eaf1e2cf0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/43ed8ae810f3a710357088f12c45b619/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3a156cc3eb569326078de9bc5d0e6f6f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/dc66b17cbe30ff8d9ae9223a82061ace/AndroidManifest.xml:17:1-22:12
+MERGED from [id.zelory:compressor:2.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/0415176afcc440445294271946637bbc/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/84fea136eaab6399be4a927d05b98b6d/AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/ebb58a7270b3986ff7d5318d9e001789/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d6558b13ce77f221cfdb04eb1f4c213b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/ccdf8f0efd1d8eb0a62e87d09a889b54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f86cbca7ec0a05ede844f68e7caababd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3c73307027098608af0351d3a638a48b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/576837cc884a00ba8671ef2c9ba124db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/220e8de6930324c1a6500f3c035a6250/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/841a99db906b49196bb99e3212605f2e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1f694035156bbfd6ce62d9f1811f3385/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3d0b4856313b7a6113c76b2510239b95/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/be8a16bf364bf11ce9e10c4b389659d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fc2f0ea87a3dc559ec9716ba49abce2f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f7ab99a0e96daa22c5f20c00cff5b29b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d8a65429c86c88e3bb9ea1c50aa29dca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/50f43d2d124569862c0f059bbd0fa355/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9d75c080cd8457afd97885e144bda489/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/237f67c00012b05d4073ee848e07ce24/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2f807b9d50a583cc2d15fe742ec282ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-common-4.2.0.aar/e866e17f6282682bcf18873e223a6026/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:27.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/42adf2b147d462acfa317fc33021b649/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/25b5b71c1377c3136e6915b0ddeff648/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/362ec38cca45d4a3a3e128982aaf30c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8f6cf146028cb0da385ff5c1fe652f6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bd60e9e713ca0b578c18836225ebf1f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/96e0f8536c248f3e4f56cbb612f9befc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6a65e42f65f5888c82c11fc9cda67dc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c2cbe19a20b307070e6854e287da07e9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2e3b4cab1f4b3be97ecbe7c14f30e9b1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a395b016869caee83cccc32649bedc02/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8eebf525afab6871cdf8b061b42cd206/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ee47cdaa30654d798c4c94c2520ed8e3/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/e658cef1b36bd5b9e438b7eae805b094/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:5:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:7:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-database:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.2.0.aar/caca1ae37ee820d37826a659579dc916/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.2.0.aar/caca1ae37ee820d37826a659579dc916/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/9464d832d86a1f3610e01c0fbb2700e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/9464d832d86a1f3610e01c0fbb2700e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/1cf81fbee0db99be369ca63c1838c2dc/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/1cf81fbee0db99be369ca63c1838c2dc/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:10:22-78
+application
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:12:5-77:19
+MERGED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:15:5-91:19
+MERGED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:15:5-91:19
+MERGED from [com.android.support:design:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/09d578142ac666d69ad0d484c8466193/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/09d578142ac666d69ad0d484c8466193/AndroidManifest.xml:22:5-20
+MERGED from [com.chootdev:timezago:1.1.8] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/timezago-1.1.8.aar/f800e108dad43c60fa799eb8a55e8378/AndroidManifest.xml:11:5-15:19
+MERGED from [com.chootdev:timezago:1.1.8] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/timezago-1.1.8.aar/f800e108dad43c60fa799eb8a55e8378/AndroidManifest.xml:11:5-15:19
+MERGED from [thereisnospon.codeview:codeview:0.3.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/codeview-0.3.1.aar/bdf55062caf114a35d438a64435c4df3/AndroidManifest.xml:11:5-15:19
+MERGED from [thereisnospon.codeview:codeview:0.3.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/codeview-0.3.1.aar/bdf55062caf114a35d438a64435c4df3/AndroidManifest.xml:11:5-15:19
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/67a8c4169c6479ac5ecf8bd5cea0a63b/AndroidManifest.xml:9:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/67a8c4169c6479ac5ecf8bd5cea0a63b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/cad78064e3f14730d6614103225c29d7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/cad78064e3f14730d6614103225c29d7/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/e6e6148d7d6908cba0af1bb11413b813/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/e6e6148d7d6908cba0af1bb11413b813/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e3287932958569f6e668f6424f084377/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e3287932958569f6e668f6424f084377/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/e6d4c72a1f09d7e281a8eb7392b9d42c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/e6d4c72a1f09d7e281a8eb7392b9d42c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/84fea136eaab6399be4a927d05b98b6d/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/84fea136eaab6399be4a927d05b98b6d/AndroidManifest.xml:10:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/ebb58a7270b3986ff7d5318d9e001789/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/ebb58a7270b3986ff7d5318d9e001789/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9d75c080cd8457afd97885e144bda489/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9d75c080cd8457afd97885e144bda489/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/237f67c00012b05d4073ee848e07ce24/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/237f67c00012b05d4073ee848e07ce24/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/25b5b71c1377c3136e6915b0ddeff648/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/25b5b71c1377c3136e6915b0ddeff648/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9d75c080cd8457afd97885e144bda489/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:17:9-41
+	android:hardwareAccelerated
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:15:9-43
+	android:fullBackupContent
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:14:9-59
+	android:roundIcon
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:19:9-54
+	android:largeHeap
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:18:9-33
+	android:icon
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:21:9-40
+activity#in.nacode.nacode.ProgrammingLang.PlayGround.PlayGroundListDisplay
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:22:9-95
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:22:19-83
+activity#in.nacode.nacode.ProgrammingLang.PlayGround.PlayGroundView
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:23:9-79
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:23:19-76
+activity#in.nacode.nacode.ProgrammingLang.Quiz.QuizResult
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:24:9-69
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:24:19-66
+activity#in.nacode.nacode.ProgrammingLang.Quiz.QuizView
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:25:19-64
+activity#in.nacode.nacode.ProgrammingLang.Quiz.ProgrammingLangC_Quiz
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:26:9-80
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:26:19-77
+activity#in.nacode.nacode.MainActivity
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:27:9-50
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:27:19-47
+activity#in.nacode.nacode.LoginActivity
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:label
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:30:13-57
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:29:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:34:27-74
+activity#in.nacode.nacode.Sign
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:37:9-42
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:37:19-39
+activity#in.nacode.nacode.CreatePost
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:38:9-48
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:38:19-45
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:39:9-41:59
+	android:theme
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:40:13-76
+activity#in.nacode.nacode.FullFeedView
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:42:9-50
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:42:19-47
+activity#in.nacode.nacode.CreateQuestion
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:43:9-45:47
+	android:theme
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:45:13-44
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:44:13-43
+activity#in.nacode.nacode.QA_FullView
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:46:9-49
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:46:19-46
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangC
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:47:9-49:45
+	android:label
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:49:13-42
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:48:13-61
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangC_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:50:9-82
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:50:19-79
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangJava
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:51:9-73
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:51:19-70
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangJava_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:52:9-85
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:52:19-82
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangCpp
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:53:9-72
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:53:19-69
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangPython
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:54:9-75
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:54:19-72
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangHtml
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:55:9-73
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:55:19-70
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangCss
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:56:9-72
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:56:19-69
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangJS
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:57:9-71
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:57:19-68
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangSql
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:58:9-72
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:58:19-69
+activity#in.nacode.nacode.ProgrammingLang.ProgrammingLangFirebase
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:59:9-77
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:59:19-74
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangCpp_notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:60:9-84
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:60:19-81
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangCpp_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:61:9-84
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:61:19-81
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangPython_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:62:9-87
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:62:19-84
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangHtml_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:63:9-85
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:63:19-82
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangCss_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:64:9-84
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:64:19-81
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangJS_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:65:9-83
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:65:19-80
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangPhp_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:66:9-84
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:66:19-81
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangSql_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:67:9-84
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:67:19-81
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangFirebase_Notes
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:68:9-89
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:68:19-86
+activity#in.nacode.nacode.ProgrammingLang.Notes.ProgrammingLangC_NotesView
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:69:9-71:85
+	android:label
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:71:13-82
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:70:13-77
+activity#in.nacode.nacode.ProgrammingLang.Programs.ProgrammingLangC_Programs
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:72:9-88
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:72:19-85
+activity#in.nacode.nacode.ProgrammingLang.Bookmarks.ProgrammingLangC_Bookmark
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:73:9-89
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:73:19-86
+activity#in.nacode.nacode.ProgrammingLang.Programs.ProgramsListDisplay
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:74:9-82
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:74:19-79
+activity#in.nacode.nacode.ProgrammingLang.Programs.ProgramView
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:75:9-74
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:75:19-71
+activity#in.nacode.nacode.ProgrammingLang.Quiz.QuizMain
+ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:76:9-67
+	android:name
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml:76:19-64
+uses-sdk
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/2edfa88e4fc97727042fbe75197b3ebc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/2edfa88e4fc97727042fbe75197b3ebc/AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/09d578142ac666d69ad0d484c8466193/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/09d578142ac666d69ad0d484c8466193/AndroidManifest.xml:20:5-44
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/fa19b4c3d565c7fd71e6037ad34588f8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.7.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/fa19b4c3d565c7fd71e6037ad34588f8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.chootdev:timezago:1.1.8] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/timezago-1.1.8.aar/f800e108dad43c60fa799eb8a55e8378/AndroidManifest.xml:7:5-9:41
+MERGED from [com.chootdev:timezago:1.1.8] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/timezago-1.1.8.aar/f800e108dad43c60fa799eb8a55e8378/AndroidManifest.xml:7:5-9:41
+MERGED from [thereisnospon.codeview:codeview:0.3.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/codeview-0.3.1.aar/bdf55062caf114a35d438a64435c4df3/AndroidManifest.xml:7:5-9:41
+MERGED from [thereisnospon.codeview:codeview:0.3.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/codeview-0.3.1.aar/bdf55062caf114a35d438a64435c4df3/AndroidManifest.xml:7:5-9:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/ee80a2394792a1e585b7b6ae47050f96/AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-1.4.2.aar/ee80a2394792a1e585b7b6ae47050f96/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2b50d5d49780d1ddb2fbcb407ddb86d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2b50d5d49780d1ddb2fbcb407ddb86d2/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.2.0.aar/caca1ae37ee820d37826a659579dc916/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-4.2.0.aar/caca1ae37ee820d37826a659579dc916/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/67a8c4169c6479ac5ecf8bd5cea0a63b/AndroidManifest.xml:7:5-44
+MERGED from [com.sothree.slidinguppanel:library:3.4.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/library-3.4.0.aar/67a8c4169c6479ac5ecf8bd5cea0a63b/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e20bd8ba298a10c19a26d35dfb535943/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/e20bd8ba298a10c19a26d35dfb535943/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/cad78064e3f14730d6614103225c29d7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/cad78064e3f14730d6614103225c29d7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-storage:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-4.2.0.aar/77056d3512d7f9bc02418ea168738032/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-storage:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-4.2.0.aar/77056d3512d7f9bc02418ea168738032/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/9464d832d86a1f3610e01c0fbb2700e2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/9464d832d86a1f3610e01c0fbb2700e2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/1cf81fbee0db99be369ca63c1838c2dc/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/1cf81fbee0db99be369ca63c1838c2dc/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/09a0389538f7146fab8c25df2386cccc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/09a0389538f7146fab8c25df2386cccc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/e6e6148d7d6908cba0af1bb11413b813/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/e6e6148d7d6908cba0af1bb11413b813/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/ceede2141b81fe8c40ce8244aedc7898/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/ceede2141b81fe8c40ce8244aedc7898/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/36f45a6b82b32e22219de902b2e5236a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/36f45a6b82b32e22219de902b2e5236a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e3287932958569f6e668f6424f084377/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/e3287932958569f6e668f6424f084377/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/e6d4c72a1f09d7e281a8eb7392b9d42c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/e6d4c72a1f09d7e281a8eb7392b9d42c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/69114c28887373cb2f63788eaf1e2cf0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/69114c28887373cb2f63788eaf1e2cf0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/43ed8ae810f3a710357088f12c45b619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/43ed8ae810f3a710357088f12c45b619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3a156cc3eb569326078de9bc5d0e6f6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/3a156cc3eb569326078de9bc5d0e6f6f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/dc66b17cbe30ff8d9ae9223a82061ace/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/dc66b17cbe30ff8d9ae9223a82061ace/AndroidManifest.xml:20:5-44
+MERGED from [id.zelory:compressor:2.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/0415176afcc440445294271946637bbc/AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/0415176afcc440445294271946637bbc/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/84fea136eaab6399be4a927d05b98b6d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/84fea136eaab6399be4a927d05b98b6d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/ebb58a7270b3986ff7d5318d9e001789/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/ebb58a7270b3986ff7d5318d9e001789/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d6558b13ce77f221cfdb04eb1f4c213b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d6558b13ce77f221cfdb04eb1f4c213b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/ccdf8f0efd1d8eb0a62e87d09a889b54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/ccdf8f0efd1d8eb0a62e87d09a889b54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f86cbca7ec0a05ede844f68e7caababd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f86cbca7ec0a05ede844f68e7caababd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3c73307027098608af0351d3a638a48b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3c73307027098608af0351d3a638a48b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/576837cc884a00ba8671ef2c9ba124db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/576837cc884a00ba8671ef2c9ba124db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/220e8de6930324c1a6500f3c035a6250/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/220e8de6930324c1a6500f3c035a6250/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/841a99db906b49196bb99e3212605f2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/841a99db906b49196bb99e3212605f2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1f694035156bbfd6ce62d9f1811f3385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1f694035156bbfd6ce62d9f1811f3385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3d0b4856313b7a6113c76b2510239b95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3d0b4856313b7a6113c76b2510239b95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/be8a16bf364bf11ce9e10c4b389659d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/be8a16bf364bf11ce9e10c4b389659d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fc2f0ea87a3dc559ec9716ba49abce2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fc2f0ea87a3dc559ec9716ba49abce2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f7ab99a0e96daa22c5f20c00cff5b29b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f7ab99a0e96daa22c5f20c00cff5b29b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d8a65429c86c88e3bb9ea1c50aa29dca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/d8a65429c86c88e3bb9ea1c50aa29dca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/50f43d2d124569862c0f059bbd0fa355/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/50f43d2d124569862c0f059bbd0fa355/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9d75c080cd8457afd97885e144bda489/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/9d75c080cd8457afd97885e144bda489/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/237f67c00012b05d4073ee848e07ce24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/237f67c00012b05d4073ee848e07ce24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2f807b9d50a583cc2d15fe742ec282ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2f807b9d50a583cc2d15fe742ec282ca/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-common-4.2.0.aar/e866e17f6282682bcf18873e223a6026/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-common-4.2.0.aar/e866e17f6282682bcf18873e223a6026/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/42adf2b147d462acfa317fc33021b649/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.1.aar/42adf2b147d462acfa317fc33021b649/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/25b5b71c1377c3136e6915b0ddeff648/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/25b5b71c1377c3136e6915b0ddeff648/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/362ec38cca45d4a3a3e128982aaf30c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/362ec38cca45d4a3a3e128982aaf30c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8f6cf146028cb0da385ff5c1fe652f6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8f6cf146028cb0da385ff5c1fe652f6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bd60e9e713ca0b578c18836225ebf1f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bd60e9e713ca0b578c18836225ebf1f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/96e0f8536c248f3e4f56cbb612f9befc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/96e0f8536c248f3e4f56cbb612f9befc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6a65e42f65f5888c82c11fc9cda67dc7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6a65e42f65f5888c82c11fc9cda67dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c2cbe19a20b307070e6854e287da07e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c2cbe19a20b307070e6854e287da07e9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2e3b4cab1f4b3be97ecbe7c14f30e9b1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2e3b4cab1f4b3be97ecbe7c14f30e9b1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a395b016869caee83cccc32649bedc02/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a395b016869caee83cccc32649bedc02/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8eebf525afab6871cdf8b061b42cd206/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8eebf525afab6871cdf8b061b42cd206/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ee47cdaa30654d798c4c94c2520ed8e3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ee47cdaa30654d798c4c94c2520ed8e3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/e658cef1b36bd5b9e438b7eae805b094/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/e658cef1b36bd5b9e438b7eae805b094/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+		ADDED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+		INJECTED from /home/narsimha_na/AndroidStudioProjects/NACODE/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/9464d832d86a1f3610e01c0fbb2700e2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/9464d832d86a1f3610e01c0fbb2700e2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/1cf81fbee0db99be369ca63c1838c2dc/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/1cf81fbee0db99be369ca63c1838c2dc/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:12:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/e6d4c72a1f09d7e281a8eb7392b9d42c/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/e6d4c72a1f09d7e281a8eb7392b9d42c/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:17:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:19:9-21:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:20:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:23:9-27:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:26:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:24:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:28:9-32:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:31:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:29:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:33:9-37:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:36:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:34:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:38:9-42:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:41:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:42:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:39:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:43:9-47:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:46:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:47:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:44:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:48:9-52:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:51:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:52:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:49:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:53:9-57:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:56:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:57:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:54:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:58:9-62:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:61:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:62:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:59:13-83
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:63:9-66:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:66:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:64:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:67:9-71:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:70:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:71:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:69:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:68:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:72:9-84:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:74:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:75:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:73:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:76:13-83:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:77:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:79:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:79:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:80:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:80:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:82:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:82:23-78
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:86:9-90:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:88:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:89:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:90:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.2.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.2.0.aar/e758ce41eda9b3192c8d0af3c93a7336/AndroidManifest.xml:87:13-79
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:14:9-18:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/19ab827420633ce7556548e37e4857db/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/9a402135e7a1dc0827ae4ae8db940681/AndroidManifest.xml:16:17-111
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/feb5e2eae6c4ccffed48221e9271bd68/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/090209e4237a39930af0763287a6d042/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/63c9cdd87be4bcb24e653a9a8ceec107/AndroidManifest.xml:11:13-77
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/4dc72fab3549b421260694cfc763e075/AndroidManifest.xml:9:13-64
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /home/narsimha_na/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b0b9e77986623c3a7f332cf380af3d64/AndroidManifest.xml:24:13-83

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        android:id="@+id/nav_id_home"
+        />
+    <item
+        android:title="@string/playground"
+        android:icon="@drawable/compiler1"
+        android:id="@+id/nav_id_pg"
+        />
+    <item
+        android:title="@string/code"
+        android:icon="@drawable/code3"
+        android:id="@+id/nav_id_lang"
+        />
+
+    <item
+        android:title="@string/q_a"
+        android:icon="@drawable/chat"
+        android:id="@+id/nav_id_qa"
+        />
+    <item
+        android:title="@string/profile"
+        android:icon="@drawable/profile"
+        android:id="@+id/nav_id_profile"
+        />
+</menu>

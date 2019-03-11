@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Functions</title>
+</head>
+<style type="text/css">
+  .card{
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  }pre{
+       background-color: #f1f1f1;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    margin:8px;
+    margin-right: 15px;
+    height: auto;
+    font-size: 12px;
+  }
+  #editor{
+
+    height: 350px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 10px;
+  }
+  code{
+  	color: #6460FF;
+  }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+  <div class="card">
+    <div class="container">
+      <h3 style="color: #6460FF"> Files </h3>
+      <p>Until now we have been using the functions such as scanf,printf, getch, putch etc to read and write data on the variable and arrays for storing data inside the programs. But this approach poses the following programs.</p>
+      <ul>
+      	<li>The data is lost when program terminated or variable goes out of scope.</li>
+      	<li>Difficulty to use large volume of data.</li>
+      </ul>
+      <p>We can overcome these problems by storing data on secondary devices such as Hard Disk. The data is storage on the devices using the concept of ''file''.A file is collection of related records, a record is composed of several fields and field is a group of character.The most straightforward use of files is via a file pointer.</p>
+      <code style="color: #6460FF"> FILE *fp;</code>
+      <p>fp is a pointer to a file.<br><br>The type FILE, is not a basic type, instead it is defined in the header file stdio.h , this file must be included in your program , The following operations that can be performed by a files are :</p>
+      <ul>
+      	<li>Creation of the new file</li>
+      	<li>Opening an existing file</li>
+      	<li>Reading from the file</li>
+      	<li>Writing to the file</li>
+      	<li>Deleting the file</li>
+      </ul>
+      <p><b style="color: #6460FF">Opening a File or Creating a File</b></p>
+      <p> The <code>fopen()</code> function is used to create a new file to open an existing file.</p>
+      <pre>
+*fp = FILE *fopen(const char *filename, const char *mode);      	
+      </pre><br>
+      <p style="color: #6460FF">We can use one of the following modes in the fopen() function.</p>
+      <ul>
+      	<li>
+      		<p><b>r</b> : opens a text file in read mode </p>
+      	</li>
+      	<li>
+      		<p><b>w</b> : opens a text file in write mode </p>
+      	</li>
+      	<li>
+      		<p><b>a</b> : write, but append instead of overwrite </p>
+      	</li>
+      	<li>
+      		<p><b>r+</b> : read & write, do not destroy file if it exists </p>
+      	</li>
+      	<li>
+      		<p><b>w+</b> : read & write, but overwrite file if it exists</p>
+      	</li>
+      	<li>
+      		<p><b>a+</b> : read & write, but append instead of overwrite </p>
+      	</li>   		   		
+      </ul>
+
+      <p><b style="color: #6460FF">Input/Output operation on File</b></p>
+      <p> The I/O functions to perform reading and writing on a file are done by <code>getc()</code> and <code>putc()</code> are the simplest functions which can be used to read and write individual characters to a file.Reading and Writing to File using <code>fprintf()</code> and <code>fscanf()</code> can also be done. </p>
+      <div id="editor">
+#include<stdio.h>
+
+int main()
+{
+    FILE *fp;
+    char ch;
+    fp = fopen("one.txt", "w");
+    printf("Enter data...");
+    while( (ch = getchar()) != EOF) {
+        putc(ch, fp);
+    }
+    fclose(fp);
+    fp = fopen("one.txt", "r");
+ 
+    while( (ch = getc(fp)! = EOF)
+    printf("%c",ch);
+    
+    // closing the file pointer
+    fclose(fp);
+    
+    return 0;
+}      	
+      </div><br><br>
+      <p><b style="color: #6460FF">Some other file library functions are :</b></p>
+      <ul>
+      	<li><code>fread() & fwrite()</code> : These functions are used to read and write is a binary file.</li>
+      	<li><code>fseek()</code> :It is used to move the reading control to different positions using fseek function.</li>
+      	<li><code>ftell()</code> : It tells the byte location of current position of cursor in file pointer.</li>
+      	<li><code>rewind()</code> : It moves the control to beginning of the file.</li>
+      </ul><br><br>
+
+
+
+      <p><b></b></p>
+	
+	
+
+
+
+
+
+
+</p>
+    </div>
+  </div>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operators</title>
+</head>
+<style type="text/css">
+	.card{
+		box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+	}
+
+	.output{
+	border: 1px solid #d6d6d6;
+    background-color: #f1f1f1;
+    width: 98%;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    overflow: auto;
+	}
+  #editor{
+    height: 300px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 10px;
+  }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+	<div class="card">
+		<div class="container" >
+			<h3 style="color: #6460ff">Operators</h3>
+			<p>Operators are main foundation of thew programming language which are used for building of logic.So all the fuctionalitiy and logic of the program deals with the operators.the operators allows us perform differnt operations on differnt operands.</p>
+			<p> Their are differnt kind of operations that can be performed in C .</p>
+			<ul>
+				<li>Arithematic Operators</li>
+				<li>Relational Operators</li>
+				<li>Logical Operators</li>
+				<li>Bitwise Operators</li>
+				<li>Assignment Operators</li>
+				<li>Other Operators</li>
+			</ul>
+			<h4><b style="color: #6460FF">Arithematic Operators</b></h4>
+			<p>This operator is used for doing of arithematic operations with operands</p>
+			<p>Eg: Addition(' + '),Subtraction(' - '),Multiplication(' * '),Division(' / '),Modular Division(' % ').</p>
+			<div id="editor" >
+#include &lt;stdio.h&gt;
+int main()
+{
+    int a,b, c;
+    
+    printf("Enter two numbers");
+    scanf("%d%d",a,b);
+    //Addition
+    c = a+b;
+    printf("a+b = %d \n",c);
+    //Subraction
+    c = a-b;
+    printf("a-b = %d \n",c);
+    //Multiplication
+    c = a*b;
+    printf("a*b = %d \n",c);
+    //Division
+    c=a/b;
+    printf("a/b = %d \n",c);
+    //Modular Division
+    c=a%b;
+    printf("a%b %d \n",c);
+    
+    return 0;
+}
+            </div><br>
+            <p><b>Output :</b></p>
+            <pre class="output">
+Enter two numbers
+4 2
+a+b = 6
+a-b = 2
+a*b = 8
+a/b = 2
+a%b = 0            </pre>
+
+			<h4><b style="color: #6460FF">Relational Operators</b></h4>
+			<p>In Relational Operators it checks the relationaship between the two operands.The result after checking relationaship ,if it is true it returns 1 (or) returns 0 if it is false</p>
+			<p>Eg : == , != , > , < , >= ,<=</p>
+			<div id="editor1" style="height: 390px; border-radius: 10px">
+#include &lt;stdio.h&gt;
+main() {
+
+   int a = 1,b = 2,c;
+   
+   if( a == b ) {
+      printf("True \n" );
+   } else {
+      printf("False \n" );
+   }
+	
+   if ( a < b ) {
+      printf("True \n" );
+   } else {
+      printf("False \n" );
+   }
+	
+   if ( a > b ) {
+      printf("True \n" );
+   } else {
+      printf("False \n" );
+   }
+	
+   if ( a <= b ) {
+      printf("True \n" );
+   } else {
+      printf("False \n" );
+   }
+	
+   if ( b >= a ) {
+      printf("True \n" );
+   } else {
+      printf("False \n" );
+   }
+
+}
+			</div><br>
+			<p><b>Output</b></p>
+			<pre class="output">
+False
+True
+False
+True
+False
+			</pre>
+			<h4><b style="color: #6460FF">Logical Operators</b></h4>
+			<p><b>Logical AND ( && ):</b>Logical AND operator. If both the operands are non-zero, then the condition becomes true. </p>
+			<p><b>Logical OR ( || ):</b>Logical OR Operator. If any of the two operands is non-zero, then the condition becomes true.</p>
+			<p><b>Logical NOT ( ! ) :</b>Logical NOT Operator. It is used to reverse the logical state of its operand. If a condition is true, then Logical NOT operator will make it false.</p>
+
+			<p><b style="color: #6460FF">Assignment Operators</b></p>
+			<p>The basic assignment operator is equal ( = ), which assigns the value of its right operand to its left operand.</p>
+			<p>Eg: = , += , -= , *= , /=.</p>
+
+			<p><b style="color: #6460FF">Bitwise Operators</b></p>
+			<p style="padding-bottom:10px; ">Bitwise operator works on bits and perform bit-by-bit operation. Arithematical operations are converted to bit-level which makes processing faster and saves power.</p><br><br>
+		</div>
+	</div>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+
+    var editor1 = ace.edit("editor1");
+    editor1.setTheme("ace/theme/monokai");
+    editor1.setReadOnly(true);
+    editor1.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor1').style.fontSize='10px';
+</script>
+</body>
+</html>

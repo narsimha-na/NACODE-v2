@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/program_view_change_theme"
+        android:title="Theme"
+        android:orderInCategory="100"
+        android:icon="@drawable/program_view_change_theme"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/program_view_change_bookmark"
+        android:title="bookmark"
+        android:orderInCategory="100"
+        android:icon="@drawable/program_view_theme_bookmark"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/program_view_change_setting"
+        android:title="settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/program_view_change_delete"
+        android:title="Delete"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>

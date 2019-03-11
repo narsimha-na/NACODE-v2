@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Structure of program</title>
+	<style type="text/css">
+	
+	 #editor { 
+
+        width: 100%;
+        height:100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+#float{
+	position:absolute;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+#float1{
+	position:absolute;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:90px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:12px;
+}
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+</head>
+<body onload="get()">
+<div id="editor">
+</div>
+
+<a href="#" id="float" onclick="getText()">
+	<i class="fa fa-code my-float"></i>
+</a>
+<a href="#" id="float1" onclick="get()">
+	<i class="fa fa-code my-float"></i>
+</a>
+
+<script>
+
+window.onload = function() {get();}
+
+
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+
+
+   function getText(){
+   	var editor = ace.edit("editor");
+   	alert(editor.session.getValue());
+   	window.code.pgGetCodeView(editor.session.getValue());
+
+    }
+
+    function setText(){
+
+   	var editor = ace.edit("editor");
+   	var vCode = window.code.pgSetCodeView();
+   	editor.setValue(vCode);
+
+    }
+
+    function get(){
+var editor = ace.edit("editor");
+var code1 = window.add.showCode();
+editor.setValue(code1);
+
+
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

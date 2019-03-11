@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.nacode.nacode">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProgrammingLang.PlayGround.PlayGroundListDisplay"></activity>
+        <activity android:name=".ProgrammingLang.PlayGround.PlayGroundView" />
+        <activity android:name=".ProgrammingLang.Quiz.QuizResult" />
+        <activity android:name=".ProgrammingLang.Quiz.QuizView" />
+        <activity android:name=".ProgrammingLang.Quiz.ProgrammingLangC_Quiz" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sign" />
+        <activity android:name=".CreatePost" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".FullFeedView" />
+        <activity
+            android:name=".CreateQuestion"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".QA_FullView" />
+        <activity
+            android:name=".ProgrammingLang.ProgrammingLangC"
+            android:label="C Programming" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangC_Notes" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangJava" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangJava_Notes" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangCpp" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangPython" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangHtml" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangCss" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangJS" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangSql" />
+        <activity android:name=".ProgrammingLang.ProgrammingLangFirebase" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangCpp_notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangCpp_Notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangPython_Notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangHtml_Notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangCss_Notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangJS_Notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangPhp_Notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangSql_Notes" />
+        <activity android:name=".ProgrammingLang.Notes.ProgrammingLangFirebase_Notes" />
+        <activity
+            android:name=".ProgrammingLang.Notes.ProgrammingLangC_NotesView"
+            android:label="@string/title_activity_programming_lang_c__notes_view" />
+        <activity android:name=".ProgrammingLang.Programs.ProgrammingLangC_Programs" />
+        <activity android:name=".ProgrammingLang.Bookmarks.ProgrammingLangC_Bookmark" />
+        <activity android:name=".ProgrammingLang.Programs.ProgramsListDisplay" />
+        <activity android:name=".ProgrammingLang.Programs.ProgramView" />
+        <activity android:name=".ProgrammingLang.Quiz.QuizMain" />
+    </application>
+
+</manifest>

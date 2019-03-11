@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Decision Making</title>
+</head>
+<style type="text/css">
+	.card{
+		box-shadow: 0px 8px 8px 0 rgba(0,0,0,0.2);
+	}
+	pre{
+		background-color: #f1f1f1;
+		border: 1px solid #d6d6d6;
+		padding: 5px;
+		margin:8px;
+		margin-right: 15px;
+		height: auto;
+		font-size: 12px;
+	}
+</style>
+<body>
+	<div class="card">
+		<div class="container">
+			<h3 style="color: #6460FF">Decision Making</h3>
+			<p>In this Decision making section , when a developer writing code he spifices one or more conditions to be checked or tested by the program , if that following condition is true then it excutes then a statement is executed or the other statement is executed if it false.</p>
+			<p>C programming langauge provides the following types of Decision making statement :</p>
+			<ul>
+				<li>
+					<p><b>if statement</b></p>
+					<p>In this expression ,if the condition is true then the statement inside the  'if '  condition  will get excuted otherwise it is skipped.</p>
+					<p><b>Syntax :</b></p>
+					<pre>
+if(condition){
+	
+  statement;
+
+}
+					</pre>
+				</li>
+				<li>
+					<p><b>if else statement</b></p>
+					<p>In this expression , <b>if statement</b> can be followed by an optional else statement. If the first condition faills ,then the else statement is executed. </p>
+					<p><b>Syntax :</b></p>
+					<pre>
+if(condition){
+	
+	statement;
+
+}else{
+	
+	statemnet;
+}
+					</pre>
+				</li>
+
+				<li>
+					<p><b>nested if else if </b></p>
+					<p>It is the next version of the if else statemnet , in this expression we have multiple if else conditions.It goes checking the condition until the correct condition is found and excutes that statement.</p>
+					<pre>
+if(condition){
+	
+	statement;
+
+}else if(condition){
+	
+	statement;
+
+}
+// we can have multiple condition
+.
+.
+.
+.
+else{
+	
+	statement;
+}
+					</pre>
+				</li>
+				<li>
+					<p><b>switch statement </b></p>
+					<p>It is an alternative to nested  if else statement which allows us to  check value of the user input or some data with multiple data for given single varible.Here, We can define various statements in the multiple cases for the different values of a single variable.</p>
+					<pre>
+switch(expression){
+	
+	case value1 :
+	 //statement
+	break;
+
+	case value2:
+	 //statement;
+	 break;
+	  .
+	  .
+	  .
+	  // If no cases match then the default case is executed
+	  default :
+	  //statement
+	  break;
+	}
+					</pre>
+				</li>
+			</ul>
+
+
+		</div>
+	</div>
+
+
+</body>
+</html>

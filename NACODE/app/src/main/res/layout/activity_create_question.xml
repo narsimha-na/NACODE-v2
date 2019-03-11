@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateQuestion"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerVertical="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+        android:orientation="horizontal"
+        android:background="@color/darkGrey"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:background="@color/transparentColor"
+            android:layout_marginTop="8dp"
+            android:id="@+id/cq_goBack"
+            android:src="@drawable/back"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/enterDetails"
+            android:paddingTop="8dp"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"
+            android:textColor="@color/whiteColor"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyHintTextC"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question_title"
+            android:lines="1"
+            android:theme="@style/MyEditTextC"
+            android:id="@+id/cq_qTitle"
+             />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/MyHintTextC"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/question_description"
+        android:lines="1"
+        android:theme="@style/MyEditTextC"
+        android:id="@+id/cq_qDesc"
+        />
+
+</android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyHintTextC"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/code_optional"
+            android:lines="1"
+            android:theme="@style/MyEditTextC"
+            android:id="@+id/cq_qCode"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyHintTextC"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Question Topic"
+            android:lines="1"
+            android:theme="@style/MyEditTextC"
+            android:id="@+id/cq_qTopic"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteColor"
+        android:layout_margin="5dp"
+        android:elevation="25dp"
+        android:clickable="true"
+        android:id="@+id/cq_qCardView"
+        tools:ignore="UnusedAttribute">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/add_image"
+                android:id="@+id/cq_qImg"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/insert_image"
+                android:textColor="@color/darkGrey"
+                android:layout_gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_img_warning"
+        android:textColor="@color/redPink"
+        android:textSize="12sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@color/whiteColor"
+        android:padding="5dp"
+        android:id="@+id/cq_qSubmit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

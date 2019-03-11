@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input And Output</title>
+</head>
+<style type="text/css">
+	.card{
+		box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+	}
+	.container{
+		margin: 10px;
+	}
+	#editor { 
+        height: 140px;
+        border-radius: 10px;
+    }
+    code{
+    	color: #6460FF;
+    }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+	<div class="card">
+		<div class="container">
+			<h3 style="color: #6460FF">Intput and Output</h3>
+			<p>In C programming language provides many built-in functions which helps you to read and write the data. <code>stdib</code> is the standard C library for the input and output operations.Their are mainly three types of intput adn output functions,they are :</p>
+			<ul>
+				<li>scanf() and printf() </li>
+				<li>puts() and gets()</li>
+				<li>getchar() and putchar()</li>
+			</ul>
+			<h4 style="color:#6460FF">scanf() and printf() functions</h4>
+			<p>The standard header file contains these functions <code>printf()</code> and <code>scanf()</code> ,in which <code>scanf()</code> it is used read user input and it returns user input and <code>printf()</code> function is used to display ouput or result.</p>
+			<div id="editor">
+#include &lt;stdio.h&gt;
+void main()
+{
+	int a;
+
+    //scanf() used for taking user input
+	scanf("%d",a);
+	//printf() used for displaying result or output
+	printf("The user Input : %d",a);
+
+}
+			</div>
+			<p><b>NOTE : </b> in the above program their is usage of '%d' in the program,that is known as the <b>Format String</b> . The Format string this is used to inform the scanf() and printf() which type of input or output is used respectively.</p>
+			<ul>
+				<li><b>' %d '</b> : for integer type data</li>
+				<li><b>' %c '</b> : for character type data</li>
+				<li><b>' %f '</b> : for float type data</li>
+				<li><b>' %s '</b> : for string type data</li>
+			</ul>
+			<br>
+			<h4 style="color: #6460FF">getchar() and putchar() functions</h4>
+			<p>In this <code style="color: #6460FF">getchar()</code> is function which reads only one character at a time and return it as an integer.<code style="color:#6460FF;">putchar()</code>  is function which is used to display result on to screen and it also display one chracter at a time.</p><br>
+
+			<h4 style="color: #6460FF">gets() and puts() functions </h4>
+			<p>In this <code style="color: #6460FF">gets()</code>  function reads a line from the stdin into a pointer until the newline or EOF (end of file) .<code style="color:#6460FF;">puts()</code>  function writes the string str and a trailing newline to stdout.</p><br>
+
+			
+		</div>
+	</div>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+</script>
+</body>
+</html>

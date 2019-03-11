@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Functions</title>
+</head>
+<style type="text/css">
+  .card{
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  }pre{
+       background-color: #f1f1f1;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    margin:8px;
+    margin-right: 15px;
+    height: auto;
+    font-size: 12px;
+  }
+  code{
+    color: #6460FF;
+  }
+  #editor{
+
+    height: 150px;
+    border-radius: 10px;
+  }
+  #editor1{
+
+    height: 200px;
+    border-radius: 10px;
+  }
+  #editor2{
+
+    height: 200px;
+    border-radius: 10px;
+  }
+  .container{
+    margin: 10px;
+  }
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.2/ace.js"></script>
+<body>
+  <div class="card">
+    <div class="container">
+      <p><b style="color: #6460FF">Pointers</b></p>
+      <p>Pointer is a variable that stores the address of another variable.They can make some things much easier, help improve your program's efficiency and C Pointer is used to allocate memory dynamically i.e. at run time.The variable might be any of the data type such as int, float, char, double, short etc.</p>
+      <p style="color:#6460FF">Syntax :</p>
+      <pre>
+data_type *ptr_name;<br/>
+
+//Example
+int *a; char *a;<br/>
+
+Where, * is used to denote that ''a'' is pointer variable and not a normal variable.
+     </pre><br>
+     <p><b>Key points to remember about pointers in C: </b></p>
+     <ol>
+       <li>Normal variable stores the value whereas pointer variable stores the address of the variable.</li>
+       <li> The content of the C pointer always be a whole number i.e. address.</li>
+       <li> Always C pointer is initialized to null, i.e. int *p = null.</li>
+       <li> & symbol is used to get the address of the variable.</li>
+       <li> * symbol is used to get the value of the variable that the pointer is pointing to.</li>
+       <li> The size of any pointer is 2 byte (for 16 bit compiler).</li>
+       <li> But, Pointer addition, multiplication, division are not allowed.</li>
+     </ol>
+     <p style="color: #6460FF"> Example :</p>
+     <div id="editor">
+#include&lt;stdio.h&gt; 
+int main()
+{
+int *ptr, q;
+  q = 50; 
+
+  /* address of q is assigned to ptr */
+  ptr = &q; 
+
+  /* display q's value using ptr variable */
+  printf("%d", *ptr); 
+  return 0;
+}  
+     </div>
+     <br>
+     <p style="color:#6460FF"><b>NULL Pointers</b></p>
+     <p>It is always a good practice to assign a NULL value to a pointer variable in case you do not have exact address to be assigned. This is done at the time of variable declaration. A pointer that is assigned NULL is called a null pointer. </p>
+     <code>
+int *ptr = NULL;
+The value of ptr is 0       
+     </code>
+     <p><b style="color: #6460FF">Pointers vs Arrays</b></p>
+     <p>Pointers and arrays are strongly related. In fact, pointers and arrays are interchangeable in many cases. For example, a pointer that points to the beginning of an array can access that array by using either pointer arithmetic or array-style indexing .</p>
+ 
+     <div id="editor1">
+
+#include&lt;stdio.h&gt; 
+int main ()
+{
+int var[3] = {1, 2, 3};
+int *ptr;
+printf("%d \n",*ptr);
+ptr++;
+printf("%d \n",*ptr);
+return 0;
+}
+     </div>
+     <p style="color:#6460FF"> Output</p>
+     <pre>
+1
+2
+     </pre><br>
+     <p><b style="color: #6460FF">Pointer to Pointer</b></p>
+     <p>A pointer to a pointer is a form of multiple indirection or a chain of pointers. Normally, a pointer contains the address of a variable. When we define a pointer to a pointer, the first pointer contains the address of the second pointer, which points to the location that contains the actual value.</p>
+     <div id="editor2">
+#include&lt;stdio.h&gt; 
+int main ()
+{
+int var;
+int *ptr;
+int **pptr;
+var = 3000;
+ptr = &var;
+pptr = &ptr;
+printf("Value of var :%d \n", var);
+printf("Value available at *ptr :%d \n",*ptr);
+printf("Value available at **pptr :%d\n",**pptr);
+return 0;
+}      
+       
+     </div>
+     <p style="color: #6460FF">Output :</p>
+     <pre>
+Value of var :3000
+Value available at *ptr :3000
+Value available at **pptr :3000       
+     </pre><br>
+
+    </div>
+  </div>
+  <script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.setReadOnly(true);
+    editor.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor').style.fontSize='10px';
+    var editor1 = ace.edit("editor1");
+    editor1.setTheme("ace/theme/monokai");
+    editor1.setReadOnly(true);
+    editor1.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor1').style.fontSize='10px';
+    var editor2 = ace.edit("editor2");
+    editor2.setTheme("ace/theme/monokai");
+    editor2.setReadOnly(true);
+    editor2.session.setMode("ace/mode/c_cpp");
+    document.getElementById('editor2').style.fontSize='10px';
+</script>
+</body>
+</html>

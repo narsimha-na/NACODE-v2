@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/listCardView"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/code_program_color_1"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/mainYellow"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/program_list_programName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@color/whiteColor"
+            android:padding="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="C Program to Add numbers C Program to Add numbers "
+            android:textColor="@color/mainDarkBlue"
+            android:textSize="13sp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginBottom="50dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="@string/create_a_new_p_amp_g"
+        android:textSize="23sp"
+        android:textColor="@color/darkGrey"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-medium"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill the Details"
+        android:textSize="19.5sp"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/mainDarkBlue"
+        android:fontFamily="sans-serif-medium"
+        android:padding="5dp"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:theme="@style/MyHintText">
+
+        <EditText
+            android:id="@+id/playground_custom_popUp_program_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Program Name"
+            android:lines="1"
+            android:textSize="18dp"
+            android:textColor="@color/mainDarkGrey"
+            android:theme="@style/MyEditText"
+            android:textColorHint="@color/mainDarkGrey"
+
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="@color/whiteColor"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@color/mainDarkYellow"
+        android:id="@+id/playground_custom_popUp_submit"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/playground_custom_popUp_warning"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/error_red"
+            android:contentDescription="@string/todo"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Program Name already exists !"
+            android:textColor="@color/redPink"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-medium"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
