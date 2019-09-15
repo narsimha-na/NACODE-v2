@@ -32,7 +32,6 @@ It contains a bunch of pre-listed programs, you can use them or edit them or sug
 * Very simple User Interface
 * One click share (Tutorials and Programs)
 * Code Editor
-* Code Editor with different themes
 
 ## ScreenShots
 
