@@ -77,15 +77,3 @@ This software uses the following open source packages:
 
 ## You may also like...
 
-- [Firebase Projects](#)
-
-## License
-
-MIT
-
----
-
-> [nacode.xyz](https://www.nacode.xyz) &nbsp;&middot;&nbsp;
-> GitHub [@narsimha-na](https://github.com/narsimha-na) &nbsp;&middot;&nbsp;
-> Twitter [@narsimha_na](https://twitter.com/)
-
