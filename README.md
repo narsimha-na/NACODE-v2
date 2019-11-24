@@ -29,7 +29,11 @@ It contains a bunch of pre-listed programs, you can use them or edit them or sug
 * Output for each program
 * You can bookmark your programs
 * User friendly assistance
-* Very simple User Interface
+* One click share (Tutorials and Programs)
+* Code Editor* Playground where you can type your code and save it
+* Output for each program
+* You can bookmark your programs
+* User friendly assistance
 * One click share (Tutorials and Programs)
 * Code Editor
 
