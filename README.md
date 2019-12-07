@@ -30,8 +30,7 @@ It contains a bunch of pre-listed programs, you can use them or edit them or sug
 * You can bookmark your programs
 * User friendly assistance
 * One click share (Tutorials and Programs)
-* Code Editor* Playground where you can type your code and save it
-* Output for each program
+* Code Editor* Playground where you can type 
 * You can bookmark your programs
 * User friendly assistance
 * One click share (Tutorials and Programs)
@@ -68,16 +67,4 @@ This software uses the following open source packages:
 - [Picasso](https://github.com/square/picasso)
 - [Ace Editor](https://ace.c9.io/)
 
-
-## Support
-
-<a href="buymeacoff.ee/6G8zKV5iO" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-<p>Or</p> 
-
-<a href="#">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-## You may also like...
 
